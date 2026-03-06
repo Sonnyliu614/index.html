@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="zh-Hant">
 <head>
+    <meta charset="UTF-8">
     <title>網頁標題</title>
 </head>
 <body>
-    
-    這是一個段落
-    
+    <h1>這是一個主標題</h1>
+    <p>這是一個段落。</p>
+    <a href="https://www.google.com">這是一個連結</a>
 </body>
-/<html>
+</html>
