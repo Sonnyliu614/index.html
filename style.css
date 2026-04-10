@@ -42,3 +42,23 @@ h2{
 	border: #f6bb9e 1px solid;
 	background-color: #fff;
 }
+header nav ul {
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid #7c5d48;
+  border-bottom: 2px solid #7c5d48;
+  background-color: rgba(255,255,255,0.42);
+  padding: 12px 0px 10px;
+}
+header nav ul li {
+  margin: 0 20px;
+}
+header nav ul li a {
+  font-size: 22px;
+  font-weight: bold;
+  color: #7c5d48;
+}
+header nav ul li a:hover {
+  text-decoration: underline double;
+}
+
