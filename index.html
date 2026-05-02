@@ -2,28 +2,61 @@
 <html lang="zh-Hant-tw">
 <head>
     <meta charset="UTF-8">
-    <title>網頁標題</title>
+    <title>我家</title>
     <link href="style.css" rel="stylesheet">
+	<script src="guess.js" defer></script>
 </head>
+
 <body>
+    <h1 id="home">我家</h1>
+
     <header>
         <nav>
             <ul>
-            <li><a href="#">HOME</a></li>
-            <li><a href="#">ABOUT</a></li>
-            <li><a href="#">Draw</a></li>
-            <li><a href="#">Snake</a></li>
-            <li><a href="#">SNS</a></li>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#Guess">GUESS</a></li>
+            <li><a href="#map">MAP</a></li>
             </ul>
         </nav>
     </header>
-    <div id="wrap"></div>
-    <h1>這是一個主標題</h1>
-    <p>
-        這是一個段落。
-        <marquee><img src="Trump.jpg" width=200 ></marquee>
-        
 
+    <h2>PRX_something</h2>
+    <p>
+        Ilia "something" Petrov (born February 11, 2002) is a Russian player who is currently playing for Paper Rex.
+        
+        <img src="prx_smth.jpg" >   
+    </p>
+
+    <h2>86不存在的戰區</h2>
+    <div class="box1">
+        <section>
+           
+        《86—不存在的戰區—》（日語：86―エイティシックス―）<br>
+        是日本作家安里朝都所撰寫的輕小說作品，しらび負責插畫，I-IV負責機器設定。小說由ASCII Media Works的電擊文庫出版。</section>
+        <img class="photo" src="es.jfif"  width="350">
+        
+        </div>
+       
+
+
+
+    <div id="Guess">
+    <h2>猜數字遊戲</h2>
+    <div class="box1">
+    <label for="guessField">猜一個數字 (1 到 100):</label>
+    <input type="number" class="guessField" id="guessField" min="1" max="100">
+    <button class="guessSubmit">提交</button>
+    <div class="result"></div>
+    <div class="count"></div>
+    <p class="guesses"></p>    
+    <button class="restartBtn">重新開始</button>
+    </div>
+    </div>
+    
+    <h2>北大高中</h2>
+    <p id=map>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3617.5159563236584!2d121.37316807537368!3d24.948554477871898!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34681c0ca7ee498b%3A0x3ffa48b382afe1b3!2z5paw5YyX5biC56uL5YyX5aSn6auY5Lit!5e0!3m2!1szh-TW!2stw!4v1777728245610!5m2!1szh-TW!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </p>
         
     
 </body>
